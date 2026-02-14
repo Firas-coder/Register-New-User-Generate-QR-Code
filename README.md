@@ -100,3 +100,6 @@ qr.save(f"media/qrcodes/{user.username}.png")
 Developed by ZeroPyteCode S
 
 🔗 GitHub: https://github.com/Firas-coder)
+
+username : admin
+password : 1234
