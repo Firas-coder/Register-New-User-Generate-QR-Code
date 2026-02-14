@@ -1,0 +1,8 @@
+<h2>All QR Users</h2>
+<ul>
+  {% for user in users %}
+    <li>{{ user.username }}<br>
+      <img src="{{ user.qr_code.url }}" width="150">
+    </li>
+  {% endfor %}
+</ul>
